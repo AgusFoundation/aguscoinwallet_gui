@@ -2,7 +2,7 @@
 
 ##### Prerequisites
 
-- You will need the following packages: boost (1.55 or higher), rocksdb, cmake, git, gcc (4.9 or higher), g++ (4.9 or higher), make, and python. Most of these should already be installed on your system.
+- You will need the following packages: boost (1.55 or higher), rocksdb, cmake, git, gcc (4.9 or higher), g++ (4.9 or higher), make, qt (Gui toolkit) and python. Most of these should already be installed on your system.
 - For example on ubuntu: 
 ```
 sudo apt-get install build-essential python-dev gcc g++ git cmake libboost-all-dev librocksdb-dev
@@ -13,6 +13,15 @@ sudo add-apt-repository ppa:ethcore/ethcore -y
 sudo apt-get update
 sudo apt-get install librocksdb-dev
 ```
+- Installation Qt5
+```
+sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
+```
+- Installation Qt4
+```
+sudo apt-get install libqt4-dev libprotobuf-dev protobuf-compiler
+```
+
 ##### Building
 - If your compiler version > 5 (... will fix the warnings ... sometimes):
 

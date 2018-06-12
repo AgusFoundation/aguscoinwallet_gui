@@ -40,7 +40,7 @@ ln -s ../aguscoin_3.11 cryptonote
 mkdir build && cd build && cmake .. && make
 ```
 
-The binaries will be in `/build/` after compilation is complete.
+You can set a submodule to the aguscoin sources instead the symbolic link. The binaries will be in `/build/` after compilation is complete.
 
 ##### Running GUI-Wallet
 
@@ -68,7 +68,7 @@ ln -s ../aguscoin_3.11 cryptonote
 mkdir build && cd build && cmake .. && make
 ```
 
-The binaries will be in `/build/release/src` after compilation is complete.
+You can set a submodule to the aguscoin sources instead the symbolic link. The binaries will be in `/build/release/src` after compilation is complete.
 
 ---------------------------------------------------------------------------
 
@@ -93,7 +93,7 @@ cd build
 ```
 set PATH="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin";%PATH%
 ```
-- set symbolic link
+- set symbolic link (you can setup a submodule to the aguscoin sources instead)
 ```
 ln -s ../your_aguscoin_dir cryptonote
 ```

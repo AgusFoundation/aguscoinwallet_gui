@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Aguscoin Wallet
+Comment=Aguscoin wallet
+Exec=aguscoinwallet %U
+Terminal=false
+Type=Application
+Icon=aguscoin
+MimeType=x-scheme-handler/aguscoin;
+Categories=Office;Finance;

@@ -1,0 +1,4 @@
+set(CN_PROJECT_NAME "AgusCoin")
+set(CN_CURRENCY_DISPLAY_NAME "aguscoin")
+set(CN_CURRENCY_TICKER "AGC")
+set(CN_VERSION 1.4.0)

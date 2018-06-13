@@ -97,9 +97,10 @@ set PATH="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\
 ```
 ln -s ../your_aguscoin_dir cryptonote
 ```
+- set the PATH to your Qt source
 - run cmake
 ```
-cmake -G "Visual Studio 14 Win64" .. -DBOOST_ROOT=C:/local/boost_1_59_0 + PATHTO Qt
+cmake -G "Visual Studio 14 Win64" .. -DBOOST_ROOT=C:/local/boost_1_59_0
 ```
 - finally build it
 ```

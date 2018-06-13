@@ -107,5 +107,3 @@ MSBuild AgusCoin.sln /p:Configuration=Release /m
 ```
 
 You will find all your binaries in the '..\build\src\Release' directory.
-
-#### cheerz to bytecoin && chavez
